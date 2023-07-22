@@ -1,2 +1,2 @@
 # GymList
-- Gym version of to do list
+- To do list
