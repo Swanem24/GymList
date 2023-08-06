@@ -4,6 +4,8 @@ body {
     flex-direction: column;
     align-items: center;
     font-family: cursive;
+    font-size: 24px;
+    background-color: lightseagreen;
 }
 
 #inputList {
@@ -26,6 +28,20 @@ button:hover {
     opacity: 80%;
 }
 
+#list {
+    list-style: number;
+}
+
 #list li:hover{
     background-color: green;
+}
+
+#list li.checked {
+    text-decoration: line-through;
+    text-decoration-color: red;
+    font-style: italic;
+}
+
+.close {
+    visibility: hidden;
 }
